@@ -15,7 +15,7 @@ from skimage import exposure
 from skimage.restoration import denoise_bilateral, denoise_tv_chambolle, estimate_sigma
 from skimage.morphology import closing, opening, erosion, dilation, disk, diamond, square
 
-matplotlib.use('TkAgg')
+
 
 '''
 Finds points for which to estimate backscatter
